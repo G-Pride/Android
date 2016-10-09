@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCFF"
+    android:orientation="vertical" >
+    
+        <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="50dp"  
+        android:background="@drawable/deepblue"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >  
+  
+        <Button  
+            android:id="@+id/cancel"  
+            android:background="@drawable/blue"
+            android:layout_width="65.83dp"  
+            android:layout_height="30.5dp"  
+            android:layout_marginLeft="10dp"  
+            android:text="@string/quit_label"  
+            android:textColor="#ffffff" />  
+  
+        <TextView  
+            android:id="@+id/tv_friend_title"  
+            android:layout_width="wrap_content"  
+            android:layout_height="50dip"  
+            android:layout_weight="1"  
+            android:gravity="center"  
+            android:text="@string/main_title"  
+            android:textColor="#ffffff"  
+            android:textSize="20dip" />  
+  
+        <Button  
+            android:id="@+id/login_in"  
+            android:background="@drawable/blue"
+            android:layout_width="65.83dp"  
+            android:layout_height="30.5dp"  
+            android:layout_marginRight="10dp"  
+            android:text="@string/setname_label"  
+            android:textColor="#ffffff" />  
+    </LinearLayout>  
+  
+    <RelativeLayout
+        
+        android:layout_marginTop="15dp"  
+        android:id="@+id/editRel"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" >  
+  
+        <RelativeLayout  
+            android:id="@+id/accountRel"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="15dp"  
+            android:clickable="true"  
+            android:gravity="center_vertical" >  
+  
+            <TextView  
+                android:id="@+id/account"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:padding="8dp"  
+                android:text="@string/account"  
+                android:textColor="#000"  
+                android:textSize="17sp" />  
+  
+            <EditText  
+                android:id="@+id/accountEdittext"  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:layout_marginLeft="30dip"  
+                android:layout_toRightOf="@id/account"  
+                android:background="@null"  
+                android:hint="@string/account"  
+                android:textSize="15sp" />  
+        </RelativeLayout>  
+
+        <RelativeLayout  
+            android:id="@+id/pwdRel"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_below="@id/accountRel"   
+            android:clickable="true"  
+            android:gravity="center_vertical" >  
+  
+            <TextView  
+                android:id="@+id/pwd"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:padding="8dp"  
+                android:text="@string/pwd"  
+                android:textColor="#000"  
+                android:textSize="17sp" />  
+  
+            <EditText  
+                android:id="@+id/pwdEdittext"  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:layout_marginLeft="30dip"  
+                android:layout_toRightOf="@id/pwd"  
+                android:background="@null"  
+                android:hint="@string/pwd"  
+                android:textSize="15sp" />  
+        </RelativeLayout>  
+    </RelativeLayout>  
+  
+    
+
+</LinearLayout>

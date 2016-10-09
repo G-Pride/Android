@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">gzh_demon3</string>
+ <string name="action_settings">Settings</string>
+ <string name="hello_world">Hello world!</string>
+ <string name="main_title">数独游戏</string>
+ <string name="continue_label">继续游戏</string>
+ <string name="new_game_label">新游戏</string>
+ <string name="about_label">关于我们</string>
+ <string name="exit_label">退出</string>
+ <string name="login_label">登录</string>
+ <string name="setname_label">注册</string>
+ <string name="account">账号</string>
+ <string name="forget_pwd">忘记密码？</string>
+ <string name="pwd">密码</string>
+  <string name="quit_label">取消</string>
+  <string name="return_about">返回</string>
+  <string name="newgame_title">等级选择</string>
+  <string name="cj">初级</string>
+  <string name="zj">中级</string>
+  <string name="gj">高级</string>
+  <string name="about_game">关于游戏</string>
+   <string name="author">MADE BY 郭志豪</string>
+ <string name="about_main">“数独”（sudoku）一词来自日语，意思是“单独的数字”或“只出现一次的数字”。概括来说，它就是一种填数字游戏。但这一概念最初并非来自日本，而是源自拉丁方块，它是十八世纪的瑞士数学家欧拉发明的。
+数独的游戏规则很简单，9x9个格子里，已有若干数字，其它宫位留白，玩家需要自己按照逻辑推敲出剩下的空格里是什么数字，使得每一行与每一列都有1到9的数字，每个小九宫格里也有1到9的数字，并且一个数字在每个行列及每个小九宫格里都只能出现一次</string>
+ 
+</resources>
